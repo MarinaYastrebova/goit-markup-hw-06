@@ -405,8 +405,9 @@ img {
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/people-office.jpg);
-    /* padding: 188px 0px; */
+    padding: 188px 0px;
     max-width: 1440px;
+    height: 600px;
   }
   .hero-banner-title {
     margin-bottom: 48px;
@@ -587,6 +588,7 @@ img {
   }
   .team-list {
     gap: 64px 24px;
+    margin: 0 108px;
   }
   .team-part {
     flex-basis: calc((100% - 24px) / 2);
@@ -602,6 +604,7 @@ img {
   }
   .team-list {
     gap: 24px;
+    margin: 0;
   }
   .team-social-link {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -714,7 +717,7 @@ img {
 /* Footer */
 .page-footer {
   background-color: #2e2f42;
-  padding: 96px 16px;
+  padding: 96px 0;
 }
 .footer-container {
   display: flex;
@@ -726,6 +729,7 @@ img {
 }
 .footer-logo-container {
   min-width: 288px;
+  margin: 0 auto;
 }
 .footer-logo {
   font-weight: 700;
@@ -756,6 +760,7 @@ img {
 }
 .office-links {
   min-width: 208px;
+  margin: 0 auto;
 }
 .office-links-list {
   display: flex;
@@ -786,6 +791,7 @@ img {
 
 .footer-subscribe {
   min-width: 288px;
+  margin: 0 auto;
 }
 .footer-subscribe-form {
   display: flex;
@@ -815,6 +821,7 @@ img {
   color: #ffffff;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: transparent;
+  margin: 0 auto;
 }
 .footer-input:placeholder {
   color: #fff;
@@ -837,6 +844,7 @@ img {
   letter-spacing: 0.04em;
   color: #ffffff;
   border: none;
+  margin: 0 auto;
 }
 
 .footer-subscribe-icon {
@@ -850,12 +858,13 @@ img {
   }
   .footer-container {
     display: flex;
-
+    flex-wrap: nowrap;
     gap: 72px 24px;
   }
 
   .footer-logo-container {
     padding-left: 108px;
+    margin: 0;
   }
   .footer-logo {
     display: inline-block;
@@ -866,8 +875,12 @@ img {
   .footer-text {
     max-width: 264px;
   }
+  .office-links {
+    margin: 0;
+  }
   .footer-subscribe {
     padding-left: 108px;
+    margin: 0;
   }
   .footer-subscribe-form {
     display: flex;
@@ -887,7 +900,7 @@ img {
     padding: 100px 0;
   }
   .footer-logo-container {
-    padding: 0;
+    padding-left: 156px;
   }
   .footer-container {
     display: flex;
@@ -895,9 +908,11 @@ img {
     align-items: baseline;
     flex-direction: row;
     gap: 0;
+    margin: 0;
   }
   .office-links {
-    margin-left: 120px;
+    padding-left: 120px;
+
     width: 208px;
   }
   .footer-links {
@@ -910,12 +925,9 @@ img {
   .footer-subscribe-form {
     flex-direction: row;
     gap: 24px;
-    padding: 0;
-    margin: 0 auto;
   }
   .footer-subscribe {
-    margin-left: 80px;
-    padding: 0;
+    padding-left: 80px;
   }
   .footer-input {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
